@@ -1,1 +1,1 @@
-# microservice-demo
+# ms-demo-02-docker
