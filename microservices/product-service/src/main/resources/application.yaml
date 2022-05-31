@@ -1,0 +1,16 @@
+server:
+  port: 7001
+
+logging:
+  level:
+    root: INFO
+    jp.vmware.sol.microservices: DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+
+server:
+  port: 8080
